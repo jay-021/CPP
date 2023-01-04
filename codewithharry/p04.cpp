@@ -6,7 +6,7 @@ int main ()
     int a,b;
     cout<<"Enter the both values : "<<endl;
     cin>>a>>b;
-    //first we type arithmatic operators
+    //first we type arithmetical operators
     cout<<"This is the result of operation a+b :"<<a+b<<endl;
     cout<<"This is the result of operation a-b :"<<a-b<<endl;
     cout<<"This is the result of operation a*b :"<<a*b<<endl;
@@ -36,9 +36,9 @@ int main ()
     // For example ((a==b) && (a>b)). More examples of logical operators are here.
 
     cout<<"\nFollowing are the Logical operators"<<endl;
-    cout<<"The value of operation (a==b)&&(a<b) is : "<<((a==b)&&(a<b))<<endl;
-    cout<<"The value of operation (a==b)||(a<b) is : "<<((a==b)||(a<b))<<endl;
-    cout<<"The value of operation !(a==b) is : "<<(!(a==b))<<endl;
+    cout<<"The value of and operation (a==b)&&(a<b) is : "<<((a==b)&&(a<b))<<endl;
+    cout<<"The value of or operation (a==b)||(a<b) is : "<<((a==b)||(a<b))<<endl;
+    cout<<"The value of not operation !(a==b) is : "<<(!(a==b))<<endl;
     
 
     return 0;
