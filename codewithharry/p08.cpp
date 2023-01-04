@@ -19,10 +19,10 @@ int main ()
 
     cout<<"\n***********  While  loops *************"<<endl;
     int j=10 ;
-    while(j<1)
+    while(j>1)
     {
         cout<<j<<endl;
-        --i;
+        --j;
     }
     return 0;
 }

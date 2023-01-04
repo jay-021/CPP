@@ -5,15 +5,16 @@ int c = 33;
 int main ()
 {
     int a=3 ,b=3,c;
-    cout<<"\n****************Gloable variable call using :: ****************"<<endl;
+    cout<<"\n****************Global variable call using :: ****************"<<endl;
     cout<<"If we type normal c it can results normal values " << endl;
     c=a+b;
     cout<<"The local c variable is : "<<c<<endl;
-    cout<<"Now let's try to print gloable c with ::  reuslt is  : "<<::c<<endl;
+    cout<<"Now let's try to print global c with ::  result is  : "<<::c<<endl;
+    // access the value of the global variable "c," we use scope resolution operator "::" with the "c" variable. 
 
     cout<<"\n************* Float, double and long double Literals****************"<<endl;
     // cpp always take input of real numbers as a double. 
-    // so if we want to change it we should have to defifne that using f or l
+    // so if we want to change it we should have to define that using f or l
     float d = 3.4F;
     long double e = 3.4L;
     cout<<"The size of float 3.4 is : "<<sizeof(3.4)<<endl;
@@ -53,5 +54,3 @@ int main ()
 
 }
 
-
-// access the value of the global variable "c," we use scope resolution operator "::" with the "c" variable. 

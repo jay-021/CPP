@@ -10,7 +10,7 @@ int main ()
     // Constants are unchangeable; when a constant variable is initialized in a program, its value cannot be changed afterwards.
     const int a = 3.3;
     cout<<"The value of a was : "<<a<<endl;
-    //a= 3.2; //It will shows you a error that's why i'm comenting out it.
+    //a= 3.2; //It will shows you a error that's why i'm commenting out it.
     cout<<"The value of a after changing it is : "<<a<<endl;
 
     cout<<"\n*********** Manipulators ***********"<<endl;
@@ -34,7 +34,7 @@ int main ()
     // Operator associativity helps us to solve an expression; when two or more operators have the same precedence, 
 
     int f = ((a+b)*(c-d)/e);
-    // if you remove this brackets then answer would be diffrent
+    // if you remove this brackets then answer would be different
     cout<<f;
     return 0;
 }
